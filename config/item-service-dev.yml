@@ -11,10 +11,10 @@ eureka:
       defaultZone: http://eureka1:2001/eureka,http://eureka2:2002/eureka  
 ---
 spring:
-  profiles: item2
+  profiles: item1
 
 server:
-  port: 8002
+  port: 8001
 ---
 spring:
   profiles: item2
